@@ -4,17 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="referrer" content="no-referrer"> -->
         <link rel="stylesheet" href="login.css">
         <title>Login</title>
+        
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+        <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+        <script src="../services/handleLoginGoogle.js"></script>
     </head>
     <body>
         <div id="container">
             <div id="left-container">
-                <img src="../assets/Left_Image.png" alt="">
+                <div id="img-left-container">
+                    <img src="../assets/Left_Image.png" alt="">
+                </div>                    
             </div>
             <div id="right-container">
-                <img src="../assets/Banner.png" alt="">
-                <input type="submit" value="Entrar com o Google">
+                <div id="img-right-container">
+                    <img src="../assets/Banner.png" alt="">
+                </div>
+                <div id="buttonDiv">
+                    <!-- <input type="submit" value="Entrar com o Google"> -->
+                </div>
                 </input>
             </div>
         </div>
