@@ -14,7 +14,8 @@ window.onload = function () {
         theme: "filled_blue", 
         size: "large" ,
         shape: "pill",
-        locale: "pt-BR"
+        locale: "pt-BR",
+        width: "300px"
     }  // customization attributes
   );
   google.accounts.id.prompt(); // also display the One Tap dialog
