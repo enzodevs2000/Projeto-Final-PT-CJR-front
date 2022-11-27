@@ -1,8 +1,13 @@
-import LoginContainer from "../../components/LoginContainer/LoginContainer";
+import LeftContainer from "../../components/LeftContainer/LeftContainer.jsx";
+import RightContainer from "../../components/RightContainer/RightContainer.jsx";
 
 function Login() {
     return (
-        <LoginContainer/>
+        <div className="container flex w-full h-full justify-between">
+           <LeftContainer/>
+           <RightContainer/>
+            
+        </div>           
     )
 }
 

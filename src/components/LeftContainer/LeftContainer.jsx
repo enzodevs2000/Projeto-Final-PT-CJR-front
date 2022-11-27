@@ -1,11 +1,10 @@
 import LeftImage from '../../assets/Left_Image.png'
-import "./LeftContainer.css"
 
 function LeftContainer() {
   return (
-    <div id="left-container">
-      <div className="img-container">
-        <img src={LeftImage} alt="" />
+    <div id="left-container" className="flex w-2/5 h-full">
+      <div className="w-full h-full">
+        <img className="w-full h-full" src={LeftImage} alt="" />
       </div>
     </div>
   );
