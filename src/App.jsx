@@ -1,11 +1,13 @@
-// import "./App.css";
-import Login from "./pages/Login/Login.jsx";
+import RoutesTo from "./RoutesTo.jsx";
+import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
-    <div className="container flex bg-clr-login w-full  w-full h-full">
-      <Login />
-    </div>
+    <Router>
+      <div className=" bg-clr-login w-full h-full mx-auto">
+        <RoutesTo />
+      </div>
+    </Router>
   );
 }
 
