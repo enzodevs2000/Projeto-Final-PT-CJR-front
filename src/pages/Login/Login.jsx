@@ -4,7 +4,7 @@ import RightContainer from "../../components/RightContainer/RightContainer.jsx";
 
 function Login() {
     return (
-        <div className="container flex w-auto h-full justify-between">
+        <div className="container flex w-auto h-screen justify-between">
            <LeftContainer/>
            <RightContainer/>
             

@@ -7,9 +7,12 @@ function LoginButton() {
   return (
     <div className="flex w-full justify-center">
       {/* <div id="buttonDiv"></div> */}
-      <button className="bg-azul-escuro text-white p-5 mb-3 rounded-xl font-fonte-padrao hover:bg-btn-login-hover font-semibold">
-        <Link to="/pdi">Entrar com o google</Link>
-      </button>
+      
+        <Link to="/pdi">
+          <button className="bg-azul-escuro text-white p-5 mb-3 rounded-xl font-fonte-padrao hover:bg-btn-login-hover font-semibold">
+            Entrar com o Google
+          </button>
+        </Link>
     </div>
   );
 }

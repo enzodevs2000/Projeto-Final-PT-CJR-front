@@ -17,6 +17,8 @@
   "devDependencies": {
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.27.0",
