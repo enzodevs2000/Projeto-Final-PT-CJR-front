@@ -9,16 +9,28 @@
   box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
   width: 100%;
   margin: 0 auto;
   /* background-color: #EDEDE9; */
 }
 
-#root{
-  display:flex;
+#root {
+  display: flex;
   width: 100vw;
   height: 100%;
   margin: 0 auto;
-  
 }
+
+.selected {
+  text-decoration: underline;
+}
+
+/* input[type="checkbox"]:checked + label {
+  background: url("./assets/checkmark.svg") no-repeat;
+  height: 16px;
+  width: 17px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+} */

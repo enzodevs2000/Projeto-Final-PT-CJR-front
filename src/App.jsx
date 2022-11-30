@@ -1,4 +1,4 @@
-import RoutesTo from "./RoutesTo.jsx";
+import RoutesTo from "./routes/RoutesTo.jsx";
 import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {

@@ -1,5 +1,5 @@
 import LogoCJR from "../../assets/Logo.png";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -11,12 +11,12 @@ function NavBar() {
         <img src={LogoCJR} alt="logo" />
       </div>
       <div id="navbar-links" className="w-1/3 flex justify-center items-center">
-        <Link to="/membros" className="mr-7 hover:text-btn-login-hover">
+        <NavLink to="/list_pdi" className="mr-7 hover:text-btn-login-hover" style={({isActive}) => ({textDecoration: isActive ? 'underline white' : 'none'})}>
           Planos dos membros
-        </Link>
-        <Link to="/questionarios" className="hover:text-btn-login-hover">
+        </NavLink>
+        <NavLink to="/questionarios" className="hover:text-btn-login-hover" style={({isActive}) => ({textDecoration: isActive ? 'underline white' : 'none'})}>
           Questionários
-        </Link>
+        </NavLink>
       </div>
       <div
         id="rightCorner-container"

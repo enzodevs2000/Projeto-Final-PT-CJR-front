@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      'fonte-padrao': ['"Inter"', 'sans-serif'],
+      "fonte-padrao": ['"Inter"', "sans-serif"],
     },
     extend: {
       colors: {
@@ -12,8 +12,15 @@ module.exports = {
         "azul-claro": "#79A4CB",
         "btn-login-hover": "#97AACC",
         "btn-font-color": "#FFFFFF",
+        "cinza-escuro": "#D9D9D9",
+        "cinza-claro": "#F1F1F1",
       },
+      styles: {
+        "background-image": "url('./asssets/checkmark.svg')",
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 };
