@@ -11,10 +11,22 @@ function NavBar() {
         <img src={LogoCJR} alt="logo" />
       </div>
       <div id="navbar-links" className="w-1/3 flex justify-center items-center">
-        <NavLink to="/list_pdi" className="mr-7 hover:text-btn-login-hover" style={({isActive}) => ({textDecoration: isActive ? 'underline white' : 'none'})}>
+        <NavLink
+          to="/list_pdi"
+          className="mr-7 hover:text-btn-login-hover"
+          style={({ isActive }) => ({
+            textDecoration: isActive ? "underline white" : "none",
+          })}
+        >
           Planos dos membros
         </NavLink>
-        <NavLink to="/questionarios" className="hover:text-btn-login-hover" style={({isActive}) => ({textDecoration: isActive ? 'underline white' : 'none'})}>
+        <NavLink
+          to="/questionarios"
+          className="hover:text-btn-login-hover"
+          style={({ isActive }) => ({
+            textDecoration: isActive ? "underline white" : "none",
+          })}
+        >
           Questionário
         </NavLink>
       </div>
@@ -28,14 +40,14 @@ function NavBar() {
           </div>
           <div id="perfil-img-container">perfil img</div>
         </div>
-        <div
-          id="exit-container"
-          className="bg-white text-azul-escuro px-3 py-1 rounded-md hover:bg-btn-login-hover hover:text-white"
-        >
-          <Link to="/">
+        <Link to="/">
+          <div
+            id="exit-container"
+            className="bg-white text-azul-escuro px-3 py-1 rounded-md hover:bg-btn-login-hover hover:text-white"
+          >
             <button>Sair</button>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );

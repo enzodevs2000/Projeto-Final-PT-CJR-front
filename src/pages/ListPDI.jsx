@@ -4,7 +4,7 @@ import Info from "../assets/Info.png"
 
 function ListPDI() {
   return (
-    <div>
+    <div className="w-full h-screen bg-clr-login">
       <NavBar />
 
       <div className="flex flex-col justify-center bg-azul-claro w-3/5  mx-auto my-10 rounded-xl font-fonte-padrao">
