@@ -1,8 +1,10 @@
-import { useRef } from "react";
+import { useRef} from "react";
 import { Form } from "@unform/web";
 
 import Input from "./Input.jsx";
 import LongInput from "./LongInput.jsx";
+import SalvarModal from "../modals/SalvarModal.jsx";
+
 import Info from "../../assets/Info.png";
 
 function FormContainer() {
@@ -25,9 +27,7 @@ function FormContainer() {
           <img src={Info} alt="info-icon" />
         </div>
         <div className="flex justify-end items-center text-center w-4/5">
-          <h1>
-            Meu plano de desenvolvimento individual
-          </h1>
+          <h1>Meu plano de desenvolvimento individual</h1>
         </div>
       </div>
       <div
@@ -68,9 +68,15 @@ function FormContainer() {
 
           <label htmlFor="habilidades" className="flex flex-col mb-5">
             O que está faltando para chegar aonde eu quero?
-            <p className="text-gray-400">- Habilidades técnicas / Hard Skills</p>
+            <p className="text-gray-400">
+              - Habilidades técnicas / Hard Skills
+            </p>
             <p className="text-gray-400">- Competências / Soft Skills</p>
-            <LongInput name="habilidades" placeholder="Resposta" className="pb-10"/>
+            <LongInput
+              name="habilidades"
+              placeholder="Resposta"
+              className="pb-10"
+            />
           </label>
 
           <label htmlFor="comidaFavorita" className="flex flex-col mb-5">
@@ -80,17 +86,17 @@ function FormContainer() {
 
           <label htmlFor="pagode" className="flex flex-col mb-5">
             Gosta de pagode?
-            <Input name="pagode" placeholder="Resposta"/>
+            <Input name="pagode" placeholder="Resposta" />
           </label>
         </Form>
         <div className="flex justify-end items-end text-center">
-          <button className="bg-azul-escuro text-white p-3 px-5 mb-3 rounded-xl font-fonte-padrao hover:bg-btn-login-hover font-semibold">
-            Salvar
-          </button>
+          <SalvarModal />
         </div>
       </div>
     </div>
   );
 }
+
+// ReactDOM.render(<FormContainer />);
 
 export default FormContainer;
