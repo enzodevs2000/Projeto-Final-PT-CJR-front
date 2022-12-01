@@ -15,7 +15,7 @@ function NavBar() {
           Planos dos membros
         </NavLink>
         <NavLink to="/questionarios" className="hover:text-btn-login-hover" style={({isActive}) => ({textDecoration: isActive ? 'underline white' : 'none'})}>
-          Questionários
+          Questionário
         </NavLink>
       </div>
       <div
