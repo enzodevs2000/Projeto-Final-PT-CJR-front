@@ -26,10 +26,10 @@ function TableListPDI() {
             <td className="py-3 px-5 ">Jhon Doe</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-              <WhatAdmin />
+              <WhatAdmin colorCheck="bg-cinza-claro"/>
             </td>
             <td className="py-3 px-5 text-center">
-              <WhatArquivado />
+              <WhatArquivado colorCheck="bg-cinza-claro"/>
             </td>
           </tr>
 
@@ -37,10 +37,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Ronaldo</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-              <WhatAdmin />
+              <WhatAdmin colorCheck="bg-cinza-escuro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-escuro"/>
             </td>
           </tr>
 
@@ -48,10 +48,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Messi</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-claro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-claro"/>
             </td>
           </tr>
 
@@ -59,10 +59,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Jane Doe</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-escuro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-escuro"/>
             </td>
           </tr>
 
@@ -70,10 +70,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Sasuke</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-claro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-claro"/>
             </td>
           </tr>
 
@@ -81,10 +81,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Izuku Midoriya</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-escuro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-escuro"/>
             </td>
           </tr>
 
@@ -92,10 +92,10 @@ function TableListPDI() {
             <td className="py-3 px-5 ">Neymar Jr.</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-claro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-claro"/>
             </td>
           </tr>
 
@@ -103,10 +103,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Yasuo</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-escuro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-escuro"/>
             </td>
           </tr>
 
@@ -114,10 +114,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Hayley Williams</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-claro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-claro"/>
             </td>
           </tr>
 
@@ -125,10 +125,10 @@ function TableListPDI() {
             <td className="py-3 px-5">Diogo Nogueira</td>
             <td className="py-3 px-5 text-center">15/02/2023</td>
             <td className="py-3 px-5 text-center">
-            <WhatAdmin />
+            <WhatAdmin colorCheck="bg-cinza-escuro"/>
             </td>
             <td className="py-3 px-5 text-center">
-            <WhatArquivado />
+            <WhatArquivado colorCheck="bg-cinza-escuro"/>
             </td>
           </tr>
         </tbody>

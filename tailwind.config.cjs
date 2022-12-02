@@ -14,6 +14,7 @@ module.exports = {
         "btn-font-color": "#FFFFFF",
         "cinza-escuro": "#D9D9D9",
         "cinza-claro": "#F1F1F1",
+        "cinza-escuro-2": "#D9D9D9",
       },
       styles: {
         "background-image": "url('./asssets/checkmark.svg')",

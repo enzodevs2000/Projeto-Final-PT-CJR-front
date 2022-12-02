@@ -1,13 +1,14 @@
 import NavBar from "../components/NavBar/NavBar.jsx";
 import TableListQuest from "../components/TableListQuest.jsx";
 import Info from "../assets/Info.png"
+import AddQuestionButton from "../components/AddQuestionButton/AddQuestionButton.jsx";
 
 function ListQuest() {
   return (
-    <div className="w-full h-screen bg-clr-login">
+    <div className="w-full h-full bg-clr-login">
       <NavBar />
-
-      <div className="flex flex-col justify-center bg-azul-claro w-3/5  mx-auto my-10 rounded-xl font-fonte-padrao">
+      <AddQuestionButton />
+      <div className="flex flex-col justify-center bg-azul-claro w-3/5  mx-auto my-5 rounded-xl font-fonte-padrao">
       <div
         id="titulo-form"
         className="flex justify-center flex-col p-2 text-3xl text-white font-normal "
